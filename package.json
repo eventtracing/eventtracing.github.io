@@ -1,8 +1,8 @@
 {
-  "name": "eventtracing.github.io",
+  "name": "home-page-website",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://eventtracing.github.io",
+  "homepage": "https://eventtracing.github.io/home-page-website",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

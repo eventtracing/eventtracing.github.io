@@ -1,4 +1,4 @@
-name: Publish eventtracing.github.io
+name: Publish home-page-website
 on:
   push:
     branches:

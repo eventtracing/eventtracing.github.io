@@ -14,7 +14,7 @@ sidebar_position: 30
 ### 初始化方法
 
 ```js
-Dawn.init(options)
+EventTracing.init(options)
 ```
 
 **入参 `options`**
@@ -25,8 +25,8 @@ Dawn.init(options)
 | globalParams      | `object`           |    否    | `{}`    | 全局公参                                                                                                                                                                                                                                                                                                                                                                            |
 | isUseHeartbeat    | `boolean`          |    否    | `false` | 是否开启心跳 `_pd`，详见 <a href="#心跳版曝光结束">心跳版曝光结束</a>，配置如下：1、`true`，开启心跳 `_pd`，默认前 5 次间隔 2000 毫秒打一次 `_pd`，之后默认间隔 10000 毫秒打一次 `_pd`。前 5 次的间隔时间不可修改，5 次之后的间隔时间可通过 `heartbeatInterval` 配置；2、`false`，关闭心跳 `_pd`，默认页面不可视时打一次 `_pd` |
 | heartbeatInterval | `number`           |    否    | `10000` | 心跳 `_pd` 埋点前 5 次之后的心跳事件间隔，必须大于等于 2000 毫秒，否则使用默认的 10000 毫秒                                                                                                                                                                                                                                                                                         |
-| onPageAppear      | `(callback): void` |    否    | `null`  | 页面进入前台/出现时回调方法                                                                                                                                                                                                                                                                                                                                                         |
-| onPageDisappear   | `(callback): void` |    否    | `null`  | 页面进入后台/被覆盖时回调方法                                                                                                                                                                                                                                                                                                                                                       |
+| onPageShow      | `(callback): void` |    否    | `null`  | 页面进入到前台/出现时回调方法                                                                                                                                                                                                                                                                                                                                                         |
+| onPageHide   | `(callback): void` |    否    | `null`  | 页面退出到后台/隐藏时回调方法                                                                                                                                                                                                                                                                                                                                                       |
 
 **返回值**
 
@@ -35,9 +35,9 @@ Dawn.init(options)
 ### 使用方式
 
 ```jsx
-import Dawn from '@dawnlog/web';
+import EventTracing from '@eventtracing/web';
 
-Dawn.init({
+EventTracing.init({
     ... // 其他参数
     reportLogs: ({ logs }) => {
         // 发送 http 请求或通过客户端协议上报 logs
@@ -76,11 +76,11 @@ Dawn.init({
 
 ```jsx
 import React, { useEffect } from 'react';
-import Dawn from '@dawnlog/web';
+import EventTracing from '@eventtracing/web';
 
 export default () => {
   useEffect(() => {
-    Dawn.init({
+    EventTracing.init({
         ... // 初始化配置
     });
   }, []);
@@ -141,11 +141,11 @@ window.NE_DAWN.trigger(target, options);
 ```jsx
 // 以 '_ec' 事件为例
 import React, { useEffect } from 'react';
-import Dawn from '@dawnlog/web';
+import EventTracing from '@eventtracing/web';
 
 export default () => {
   useEffect(() => {
-    Dawn.init({
+    EventTracing.init({
         ... // 初始化配置
     });
   }, []);
@@ -191,11 +191,11 @@ export default () => {
 
 ```jsx | demo
 import React, { useEffect } from 'react';
-import Dawn from '@dawnlog/web';
+import EventTracing from '@eventtracing/web';
 
 export default () => {
   useEffect(() => {
-    Dawn.init({
+    EventTracing.init({
         ... // 初始化配置
     });
   }, []);
@@ -256,11 +256,11 @@ export default () => {
 
 ```jsx
 import React, { useEffect } from 'react';
-import Dawn from '@dawnlog/web';
+import EventTracing from '@eventtracing/web';
 
 export default () => {
   useEffect(() => {
-    Dawn.init({
+    EventTracing.init({
         ... // 初始化配置
     });
   }, []);
@@ -332,9 +332,9 @@ export default () => {
 初始化时设置，如下：
 
 ```jsx
-import Dawn from '@dawnlog/web';
+import EventTracing from '@eventtracing/web';
 
-Dawn.init({
+EventTracing.init({
     ... // 其他参数
     isUseHeartbeat: true,
 });
