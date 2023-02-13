@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeventtracing_github_io=self.webpackChunkeventtracing_github_io||[]).push([[2535],{425:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Release 1.0","permalink":"/blog/release-1.0"}]}')}}]);
