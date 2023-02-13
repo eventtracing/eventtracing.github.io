@@ -1,0 +1,28 @@
+name: Publish eventtracing.github.io
+on:
+  push:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/setup-node@v3
+      with:
+        node-version: 18
+        cache: yarn
+    - name: Install dependencies
+      run: |
+        yarn global add docusaurus
+        yarn install --frozen-lockfile
+    - name: Build website
+      run: yarn build
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.ACCESS_TOKEN }}
+        branch: gh-pages
+        publish_dir: ./build
+        user_name: github-actions[bot]
+        user_email: 41898282+github-actions[bot]@users.noreply.github.com
