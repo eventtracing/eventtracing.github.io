@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeventtracing_github_io=self.webpackChunkeventtracing_github_io||[]).push([[5503],{5143:e=>{e.exports=JSON.parse('{"label":"Netease Music","permalink":"/blog/tags/netease-music","allTagsPath":"/blog/tags","count":1}')}}]);

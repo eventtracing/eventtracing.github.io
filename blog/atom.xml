@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://eventtracing.github.io/blog</id>
+    <title>曙光 Blog</title>
+    <updated>2023-02-09T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://eventtracing.github.io/blog"/>
+    <subtitle>曙光 Blog</subtitle>
+    <icon>https://eventtracing.github.io/img/logo.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Release 1.0]]></title>
+        <id>release-1.0</id>
+        <link href="https://eventtracing.github.io/blog/release-1.0"/>
+        <updated>2023-02-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2023-02-09 曙光正式开源 1.0 版本]]></summary>
+        <content type="html"><![CDATA[<p>2023-02-09 曙光正式开源 1.0 版本</p><p>本次开源，包含了如下几个模块</p><ol><li>主壳工程 <a href="https://github.com/eventtracing/dawn" target="_blank" rel="noopener noreferrer">dawn</a></li><li>iOS侧SDK <a href="https://github.com/eventtracing/EventTracing-iOS" target="_blank" rel="noopener noreferrer">EventTracing-iOS</a></li><li>Android侧SDK <a href="https://github.com/eventtracing/EventTracing-Android" target="_blank" rel="noopener noreferrer">EventTracing-Android</a></li><li>H5侧SDK <a href="https://github.com/eventtracing/EventTracing-web" target="_blank" rel="noopener noreferrer">EventTracing-web</a></li><li>Easyinsight server侧 <a href="https://github.com/eventtracing/EventTracing-server" target="_blank" rel="noopener noreferrer">EventTracing-server</a></li><li>Easyinsight web <a href="https://github.com/eventtracing/EventTracing-web" target="_blank" rel="noopener noreferrer">EventTracing-web</a></li></ol>]]></content>
+        <author>
+            <name>wiz-chen</name>
+            <uri>https://github.com/wiz-chen</uri>
+        </author>
+        <author>
+            <name>li.ding</name>
+            <uri>https://github.com/ShakeShakeMe</uri>
+        </author>
+        <author>
+            <name>hssdx</name>
+            <uri>https://github.com/hssdx</uri>
+        </author>
+        <author>
+            <name>yuyinghao</name>
+            <uri>https://github.com/yuyinghao</uri>
+        </author>
+        <author>
+            <name>iamztf</name>
+            <uri>https://github.com/iamztf</uri>
+        </author>
+        <author>
+            <name>CasoMemory</name>
+            <uri>https://github.com/CasoMemory</uri>
+        </author>
+        <author>
+            <name>YFZou</name>
+            <uri>https://github.com/YFZou</uri>
+        </author>
+        <category label="Netease Music" term="Netease Music"/>
+        <category label="dawn" term="dawn"/>
+        <category label="eventtracing" term="eventtracing"/>
+    </entry>
+</feed>
