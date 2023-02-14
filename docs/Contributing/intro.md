@@ -21,7 +21,7 @@ sidebar_position:  1
 - 【H5 - SDK】: [EventTracing-iOS](https://github.com/eventtracing/EventTracing-web)
 - 【Easyinsight】
   - [easyinsight-server](https://github.com/eventtracing/easyinsight-server)
-  - [easyinsight-web](https://github.com/eventtracing/easyinsight-web)
+  - [easyinsight-font](https://github.com/eventtracing/easyinsight-front)
 - 文档: [eventtracing.github.io](https://github.com/eventtracing/eventtracing.github.io)
 ## 管理 Issues
 
