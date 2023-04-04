@@ -46,6 +46,10 @@
             <name>YFZou</name>
             <uri>https://github.com/YFZou</uri>
         </author>
+        <author>
+            <name>stuyang</name>
+            <uri>https://github.com/stuyang</uri>
+        </author>
         <category label="Netease Music" term="Netease Music"/>
         <category label="dawn" term="dawn"/>
         <category label="eventtracing" term="eventtracing"/>
