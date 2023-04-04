@@ -1,7 +1,7 @@
 ---
 slug: release-1.0
 title: Release 1.0
-authors: [wiz-chen, shakeshakeme, hssdx, yuyinghao, iamztf, CasoMemory, lmoyrd, YFZou]
+authors: [wiz-chen, shakeshakeme, hssdx, yuyinghao, iamztf, CasoMemory, lmoyrd, YFZou, stuyang]
 tags: [Netease Music, dawn, eventtracing]
 ---
 
