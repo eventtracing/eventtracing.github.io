@@ -11,7 +11,7 @@ sidebar_position:  1
   - Debug工具: [EventTracing-iOS](https://github.com/eventtracing/EventTracing-iOS-Debug)
   - LogViewer工具: [EventTracing-iOS](https://github.com/eventtracing/EventTracing-iOS-LogViewer)
 - **【Android - SDK】**: [EventTracing-Android](https://github.com/eventtracing/EventTracing-Android)
-- **【H5 - SDK】**: [EventTracing-iOS](https://github.com/eventtracing/EventTracing-web)
+- **【H5 - SDK】**: [EventTracing-Web](https://github.com/eventtracing/EventTracing-web)
 - **【Easyinsight】**
   - [easyinsight-server](https://github.com/eventtracing/easyinsight-server)
   - [easyinsight-font](https://github.com/eventtracing/easyinsight-front)
